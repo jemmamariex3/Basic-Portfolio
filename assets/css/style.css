@@ -1,0 +1,64 @@
+#navbar{
+    background-color: teal;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.navbar-header a{
+    color:white;
+}
+.row:nth-child(odd) {
+    background-color: #eaeeed;
+    padding:20px;
+}
+.row:nth-child(even) {
+    background-color: teal;
+    padding: 20px;
+    color: white;
+}
+#youtube{
+    color: white;
+}
+#profilePic{
+    width:300px;
+    padding: 20px;
+    border-radius: 50%;
+    float:left;
+}
+hr.style17 {
+    border-top: 1px solid #8c8b8b;
+    text-align: center;
+}
+hr.style17:after {
+
+    content: '§';
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    padding: 0 10px;
+    background: #f0f0f0;
+    color: #8c8b8b;
+    font-size: 18px;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+.title{
+    padding:20px;
+}
+#logo{
+    padding:20px;
+    width:250px;
+}
+p{
+    color:white;
+}
+.name{
+    color: white;
+}
+#filter{
+    float:clearfix;
+}
+#skill{
+    margin: 20px;
+}
